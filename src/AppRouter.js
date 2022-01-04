@@ -3,7 +3,7 @@ import { Hechizos } from './Components/Hechizos/Hechizos';
 import { Personajes } from './Components/Personajes/Personajes';
 import { NavBar } from './NavBar';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from 'react-router-dom';
