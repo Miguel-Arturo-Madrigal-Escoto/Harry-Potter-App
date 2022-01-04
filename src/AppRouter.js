@@ -21,6 +21,7 @@ export const AppRouter = () => {
                 <Routes>
                     <Route exact="true" path="/" element={ <Personajes /> } />
                     <Route exact="true" path="/hechizos" element={ <Hechizos /> } />
+                    <Route exact="true" path="/Harry-Potter-App/" element={ <Hechizos /> } />
                 </Routes>
             </Router>
         </>
