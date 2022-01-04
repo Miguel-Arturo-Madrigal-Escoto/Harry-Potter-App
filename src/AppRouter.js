@@ -3,7 +3,7 @@ import { Hechizos } from './Components/Hechizos/Hechizos';
 import { Personajes } from './Components/Personajes/Personajes';
 import { NavBar } from './NavBar';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from 'react-router-dom';
@@ -19,7 +19,7 @@ export const AppRouter = () => {
             <Router>
                 <NavBar />
                 <Routes>
-                    <Route exact="true" path="/Harry-Potter-App" element={ <Personajes /> } />
+                    <Route exact="true" path="/" element={ <Personajes /> } />
                     <Route exact="true" path="/hechizos" element={ <Hechizos /> } />
                 </Routes>
             </Router>
