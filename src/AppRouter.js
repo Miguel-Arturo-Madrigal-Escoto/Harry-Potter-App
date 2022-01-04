@@ -19,8 +19,8 @@ export const AppRouter = () => {
             <Router>
                 <NavBar />
                 <Routes basename={ process.env.PUBLIC_URL }>
-                    <Route exact="true" path="/" element={ <Personajes /> } />
-                    <Route exact="true" path="/hechizos" element={ <Hechizos /> } />
+                    <Route exact="true" path={ process.env.PUBLIC_URL + '/'} element={ <Personajes /> } />
+                    <Route exact="true" path={ process.env.PUBLIC_URL + '/hechizos' } element={ <Hechizos /> } />
                 </Routes>
             </Router>
         </>

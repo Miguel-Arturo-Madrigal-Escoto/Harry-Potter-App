@@ -37,8 +37,8 @@ export const NavBar = () => {
                 </button>
                 <div className={ (!isSelected)? 'collapse navbar-collapse': 'navbar-collapse'}id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <NavLink exact="true" to="/" className={({ isActive }) => isActive? "nav-link active": 'nav-link'} aria-current="page" href="#"><i className="fas fa-hat-wizard"></i> Personajes</NavLink>
-                        <NavLink exact="true" to="/hechizos" className={({ isActive }) => isActive? "nav-link active": 'nav-link'} href="#"><i className="fas fa-quidditch"></i> Hechizos</NavLink>
+                        <NavLink exact="true" to={ process.env.PUBLIC_URL + '/'} className={({ isActive }) => isActive? "nav-link active": 'nav-link'} aria-current="page" href="#"><i className="fas fa-hat-wizard"></i> Personajes</NavLink>
+                        <NavLink exact="true" to={ process.env.PUBLIC_URL + '/hechizos'} className={({ isActive }) => isActive? "nav-link active": 'nav-link'} href="#"><i className="fas fa-quidditch"></i> Hechizos</NavLink>
                     </div>
                 </div>
         </div>
