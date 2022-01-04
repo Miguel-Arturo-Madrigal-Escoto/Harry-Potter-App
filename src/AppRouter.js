@@ -13,7 +13,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 export const AppRouter = () => {
 
     console.log('Me renderice: router');
-    console.log(process.env.PUBLIC_URL )
+    
     return (
         <>
             <Router>
