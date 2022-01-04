@@ -1,0 +1,14 @@
+.dark-mode .card, .dark-mode .list-group li {
+    background-color: #28282B;
+    color: #fff;
+}
+
+.fa-arrow-right
+{
+    font-size: 10px;
+}
+
+.dark-mode .card-header, .dark-mode .card-body {
+    background-color: #28282B;
+    color: #fff;
+}
