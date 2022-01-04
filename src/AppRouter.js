@@ -18,7 +18,7 @@ export const AppRouter = () => {
         <>
             <Router>
                 <NavBar />
-                <Routes basename={ process.env.PUBLIC_URL }>
+                <Routes>
                     <Route exact="true" path={ process.env.PUBLIC_URL + '/'} element={ <Personajes /> } />
                     <Route exact="true" path={ process.env.PUBLIC_URL + '/hechizos' } element={ <Hechizos /> } />
                 </Routes>
