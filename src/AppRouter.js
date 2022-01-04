@@ -19,7 +19,7 @@ export const AppRouter = () => {
             <Router>
                 <NavBar />
                 <Routes basename={ process.env.PUBLIC_URL }>
-                    <Route exact="true" path="/Harry-Potter-App" element={ <Personajes /> } />
+                    <Route exact="true" path="/" element={ <Personajes /> } />
                     <Route exact="true" path="/hechizos" element={ <Hechizos /> } />
                 </Routes>
             </Router>
